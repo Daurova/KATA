@@ -267,3 +267,7 @@ h1{
     padding-left: 15px;
     margin-left: 0;
 }
+.services-nav__button{
+    border: none;
+    background-color: transparent;
+    padding:3px;}

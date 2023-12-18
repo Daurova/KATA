@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CPS</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="menu">
-        <nav class = "menu__nav">
-            <div class = "menu__left">
-            <!--menu-->
-              <input type="button" class = "menu__button--burger">
-              </input>
-            <!--logo-->
-               <span class="menu__span-1"><input type = "button" class="menu__button--logo"></input></span>
+        <div class="menu__cont">
+            <div class="menu__left">
+                <div><button class="menu__left--button--burger"></button></div>
+                <div><span class="menu__left--span-1"><button class="menu__left--button--logo"></button></span></div>
             </div>
-            <div class = "menu__right">
-            <!--call-->
-               <input type = "button" class = "menu__button-m--call">
-               </input>
-            <!--chat-->
-               <input type = "button" class = "menu__button-m--chat">
-               </input>
-            <!--profile-->
-               <span class = "menu__span-2"><input type = "button" class = "menu__button-m--profile"></input></span>       
-            <!--menu-->
-               <input type ="button" class = "menu__button--repair">
-               </input>
-            <!--check status-->
-               <input type = "button" class = "menu__button--status">
-               </input>
+            <div class="menu__right">
+                <div><button class="menu__right--button-m--call"></button></div>
+
+                <div><button class="menu__right--button-m--chat "></button></div>
+                <div><button class="menu__right--button-m--profile "></button></div>
+
+                <span class="menu__right--span-3">
+                    <div><button class="menu__right--button--repair "></button></div>
+                </span>
+
+                <div><button class="menu__right--button--status"></div>
             </div>
-        </nav>
+        </div>
     </header>
-    <header class = "services">
-        <div class = "services__serv">
-        <div><h1>Услуги и сервисы</h1></div>
+    <header class="services">
+        <div class="services__header">
+            <h1>Услуги и сервисы</h1>
+        </div>
         <div class="services__buttons">
-            <label>Оставить заявку<input type = "button" class="services__buttons--enquiery"></input></label>
-            <label>Статус ремонта<input type = "button" class="services__buttons--status"></input></label></div>
+            <div><label>Оставить заявку<button class="services__buttons--enquiery"></button></label></div>
+            <div><label>Статус ремонта<button class="services__buttons--status"></button></label></div>
+        </div>
     </header>
-        <nav class = "services-nav">
-          <input type = "button" class="services-nav__button" value= "Дополнительные услуги"> </input>
-          <input type = "button" class="services-nav__button" value="Ремонтируемые устройства "></input>
-          <input type = "button" class="services-nav__button" value = "Цены на услуги"> </input>
-          <input type = "button" class="services-nav__button" value="Адреса сервисных центров"></input>
-          <input type = "button" class="services-nav__button" value="Специальные цены"></input>
-          <input type = "button" class="services-nav__button" value="Отзывы"></input>
-        </nav>
+    <nav class="services-nav">
+        <ul class="no-bullet">
+            <li><a href="" class="services-nav__link">Дополнительные услуги</a></li>
+            <li><a href="" class="services-nav__link">Ремонтируемые устройства</a></li>
+            <li><a href="" class="services-nav__link">Цены на услуги </a></li>
+            <li><a href="" class="services-nav__link">Адреса сервисных центров</a></li>
+            <li><a href="" class="services-nav__link">Специальные цены</a></li>
+            <li><a href="" class="services-nav__link">Отзывы</a></li>
+        </ul>
+    </nav>
     <article class="text">
         <div>
-          <div class = "text__paragraph">
-            <p> 
-            Мы являемся авторизованным сервисным центорм по ремонту техники Dell. 
-            Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя
-            </p>
-            <p>
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает 
-            большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, 
-            в свою очередь, советуют нас родным и близким.
-            </p>
-           </div>
-           <div class = "text__read">
-                <label class = "text__read--label"><input type="button" class = "text__read--button">Читать далее</label>
-           </div>
+            <div class="text__paragraphs">
+                <p>
+                    Мы являемся авторизованным сервисным центорм по ремонту техники Dell.
+                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя
+                </p>
+                <p>
+                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает
+                    большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                    в свою очередь, советуют нас родным и близким.
+                </p>
+            </div>
+            <div class="text__read">
+                <label class="text__read--label"><button class="text__read--button"></button>Читать далее</label>
+            </div>
         </div>
-        <div class = "image"></div>
+        <div class="text__image"><img src="img/_MG_3223.jpg" alt="Логотип с графиком работы" class="text__image--pic"></div>
     </article>
 </body>
+
 </html>

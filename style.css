@@ -355,9 +355,10 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: bottom;
-    width: 20px;
-    height: 25px;
+    width: auto;
+    height: 10.29px;
     border: none;
+  
 }
 
 .services-nav__link {
@@ -378,6 +379,10 @@ body {
 
 .text-read--label {
     display: flex;
+    align-items: flex-start;
+}
+.text__paragraphs{
+    margin-bottom: 10px;
 }
 
 .menu__left--button--logo {
